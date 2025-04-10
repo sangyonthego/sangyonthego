@@ -65,11 +65,14 @@
     <p>© 2025 SangyOnTheGo • All rights reserved</p>
   </footer>
 
-  <!-- Lightbox Modal -->
+<!-- Lightbox Modal -->
 <div id="lightbox" class="lightbox hidden">
   <span class="lightbox-close" onclick="closeLightbox()">×</span>
+  <span class="lightbox-arrow left" onclick="navigateGallery(-1)">&#10094;</span>
   <img id="lightbox-img" src="" alt="Expanded photo">
+  <span class="lightbox-arrow right" onclick="navigateGallery(1)">&#10095;</span>
 </div>
+
 
   <script src="assets/js/travel.js"></script>
 </body>

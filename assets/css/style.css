@@ -316,3 +316,27 @@
     display: none;
   }
   
+  .lightbox-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3rem;
+    color: #fff;
+    cursor: pointer;
+    padding: 0 1rem;
+    z-index: 1001;
+    user-select: none;
+  }
+  
+  .lightbox-arrow.left {
+    left: 1rem;
+  }
+  
+  .lightbox-arrow.right {
+    right: 1rem;
+  }
+  
+  .lightbox-arrow:hover {
+    color: #ffcc00;
+  }
+  

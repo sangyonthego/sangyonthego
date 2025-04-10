@@ -28,7 +28,7 @@ const travelData = {
     coorg: {
         title: "Coorg",
         tagline: "Misty mornings, coffee plantations, and soul-soothing greens 🌿",
-        image: "../assets/media/coorg.jpg", // hero image
+        image: "assets/media/coorg.jpg", // hero image
         intro: "Tucked away in the Western Ghats, Coorg feels like nature's warm embrace — all wrapped in mist, with the scent of coffee and cardamom in the air.",
         experiences: [
           "☕ Sipping freshly brewed coffee at a plantation stay",
@@ -99,7 +99,7 @@ const travelData = {
   
 
   }
-  
+
   function closeLightbox() {
     document.getElementById("lightbox").classList.add("hidden");
   }

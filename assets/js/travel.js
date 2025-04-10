@@ -24,7 +24,28 @@ const travelData = {
         "🥥 Chillin’ with a coconut on Kata Beach"
       ],
       notes: "Rent a scooter, pack your sunscreen... Phuket is freedom!"
-    }
+    },
+    coorg: {
+        title: "Coorg",
+        tagline: "Misty mornings, coffee plantations, and soul-soothing greens 🌿",
+        image: "../assets/media/coorg.jpg", // hero image
+        intro: "Tucked away in the Western Ghats, Coorg feels like nature's warm embrace — all wrapped in mist, with the scent of coffee and cardamom in the air.",
+        experiences: [
+          "☕ Sipping freshly brewed coffee at a plantation stay",
+          "🌿 Trekking through lush hills to Tadiandamol Peak",
+          "🐘 Visiting Dubare Elephant Camp",
+          "🕌 Exploring the Tibetan vibe at Namdroling Monastery",
+          "💦 Chillin’ by Abbey Falls"
+        ],
+        notes: "Coorg is best enjoyed slowly — take long walks, talk to locals, and don’t forget to try pandi curry if you're non-veg!",
+        gallery: [
+          "assets/media/coorg1.jpg",
+          "assets/media/coorg2.jpg",
+          "assets/media/coorg3.jpg",
+
+        ]
+      }
+      
   };
   
   function getPlaceFromURL() {
@@ -55,8 +76,33 @@ const travelData = {
     });
   
     document.getElementById("place-notes").textContent = place.notes;
+    const galleryDiv = document.getElementById("place-gallery");
+
+    place.gallery?.forEach(src => {
+    const img = document.createElement("img");
+    img.src = src;
+    img.alt = `${place.title} photo`;
+    img.classList.add("gallery-img");
+    galleryDiv.appendChild(img);
+    img.addEventListener("click", () => openLightbox(src));
+
+});
+    // Lightbox functionality
+    function openLightbox(src) {
+        const lightbox = document.getElementById("lightbox");
+        const lightboxImg = document.getElementById("lightbox-img");
+        lightboxImg.src = src;
+        lightbox.classList.remove("hidden");
+    }
+  
+ 
+  
+
   }
   
+  function closeLightbox() {
+    document.getElementById("lightbox").classList.add("hidden");
+  }
   const place = getPlaceFromURL();
   renderPlaceContent(place);
   

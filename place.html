@@ -50,6 +50,11 @@
       <h2>Travel Notes</h2>
       <p id="place-notes"></p>
     </section>
+
+    <section>
+      <h2>Photo Gallery</h2>
+      <div id="place-gallery" class="gallery"></div>
+    </section>
   </main>
 
   <footer class="page-footer">
@@ -59,7 +64,13 @@
   <footer>
     <p>© 2025 SangyOnTheGo • All rights reserved</p>
   </footer>
-  
+
+  <!-- Lightbox Modal -->
+<div id="lightbox" class="lightbox hidden">
+  <span class="lightbox-close" onclick="closeLightbox()">×</span>
+  <img id="lightbox-img" src="" alt="Expanded photo">
+</div>
+
   <script src="assets/js/travel.js"></script>
 </body>
 </html>

@@ -2,7 +2,7 @@ const travelData = {
     bangkok: {
       title: "Bangkok",
       tagline: "Floating markets, golden temples, and vibrant nights",
-      image: "../assets/media/bangkok.jpg",
+      image: "assets/media/bangkok.jpg",
       intro: "Bangkok greets you with a whirlwind of tuk-tuks, temple bells, and sizzling street food...",
       experiences: [
         "🕌 Grand Palace & Emerald Buddha",
@@ -15,7 +15,7 @@ const travelData = {
     phuket: {
       title: "Phuket",
       tagline: "Island vibes, turquoise waves, and slow sunsets",
-      image: "../assets/media/phuket.jpg",
+      image: "assets/media/phuket.jpg",
       intro: "Phuket welcomed me with salty air and golden sands...",
       experiences: [
         "🌅 Sunset at Promthep Cape",

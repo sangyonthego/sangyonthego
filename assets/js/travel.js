@@ -209,7 +209,36 @@ const travelData = {
             "assets/media/munnar/12.jpg",
             "assets/media/munnar/13.jpg",
         ]
-      }
+      },
+      panjim: {
+        title: "Panjim",
+        tagline: "Colonial charm by the river, wrapped in sunshine and color",
+        image: "assets/media/panjim/panjim.jpg",
+        intro: "The capital of Goa, Panjim is a fusion of Portuguese heritage and laid-back coastal living. With its candy-colored houses, riverside promenades, and soulful cuisine, it's a vibrant window into Goa’s past and present.",
+        experiences: [
+          "🎨 Strolling through Fontainhas, the Latin Quarter, with its art-lined walls and colonial balconies",
+          "⛪ Visiting the iconic Our Lady of the Immaculate Conception Church — a whitewashed beauty on a hill",
+          "🌅 Watching the sun dip behind the Mandovi River with a cup of local chai",
+          "🍛 Sampling authentic Goan fish curry at a family-run tavern",
+          "🚤 Taking a ferry ride from Panjim jetty for a breezy view of the city from the water"
+        ],
+        notes: "Panjim invites you to slow down and soak in its old-world charm — where every corner tells a story and every flavor lingers just a little longer.",
+        gallery: [
+          "assets/media/panjim/1.jpg",
+          "assets/media/panjim/2.jpg",
+          "assets/media/panjim/3.jpg",
+          "assets/media/panjim/4.jpg",
+          "assets/media/panjim/5.jpg",
+          "assets/media/panjim/6.jpg",
+          "assets/media/panjim/7.jpg",
+          "assets/media/panjim/8.jpg",
+          "assets/media/panjim/9.jpg",
+          "assets/media/panjim/10.jpg",
+          "assets/media/panjim/11.jpg",
+          "assets/media/panjim/12.jpg",
+
+        ]
+      } 
       
       
       

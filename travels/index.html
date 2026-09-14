@@ -1,75 +1,500 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SangyOnTheGo</title>
-  <link rel="stylesheet" href="/assets/css/style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" href="/assets/media/logo.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Travels | SangyOnTheGo</title>
+
+    <meta
+        name="description"
+        content="Explore SangyOnTheGo's travel stories, destinations, experiences, and favourite places around the world."
+    >
+
+    <!-- Favicon -->
+    <link
+        rel="icon"
+        type="image/png"
+        href="../assets/images/favicon.png"
+    >
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Main Stylesheet -->
+    <link
+        rel="stylesheet"
+        href="../assets/css/styles.css"
+    >
 </head>
+
+
 <body>
-  <div id="site-header"></div>
-    <header class="page-header">
-        <h1>Wander & Eat With Me</h1>
-        <p>Explore the amazing places I've visited, one story at a time!</p>
-      </header>
-    
-      <section class="travel-grid">
-        <a class="travel-card" href="/place/?place=phuket">
-          <img src="/assets/media/phuket/phuket.jpg" alt="Phuket" />
-          <h3>Phuket</h3>
-          <p>Island vibes, turquoise waves, and slow sunsets 🌅🏝️</p>
-        </a>
-        <a class="travel-card" href="/place/?place=bangkok">
-          <img src="/assets/media/bangkok/bangkok.jpg" alt="Bangkok" />
-          <h3>Bangkok</h3>
-          <p>Floating markets, golden temples, and vibrant night life 🛶✨</p>
-        </a>
-        <a class="travel-card" href="/place/?place=coorg">
-            <img src="/assets/media/coorg/coorg.jpg" alt="Coorg" />
-            <h3>Coorg</h3>
-            <p>Misty mornings, coffee plantations, and soul-soothing greens 🌿</p>
-        </a>
-        <a class="travel-card" href="/place/?place=kochi">
-            <img src="/assets/media/kochi/kochi.jpg" alt="Kochi" />
-            <h3>Kochi</h3>
-            <p>Where the sea meets stories, and time slows down 🌅</p>
-        </a>
-        <a class="travel-card" href="/place/?place=mumbai">
-            <img src="/assets/media/mumbai/mumbai.jpg" alt="Mumbai" />
-            <h3>Mumbai</h3>
-            <p>Where colonial charm meets coastal buzz</p>
-        </a>
-        <a class="travel-card" href="/place/?place=delhi">
-            <img src="/assets/media/delhi/delhi.jpg" alt="Delhi" />
-            <h3>Delhi</h3>
-            <p>A whirlwind of history, hustle, and heavenly food </p>
-        </a>
-        <a class="travel-card" href="/place/?place=kozhikode">
-            <img src="/assets/media/kozhikode/kozhikode.jpg" alt="Kozhikode" />
-            <h3>Kozhikode</h3>
-            <p>A city that serves soul in every bite </p>
-        </a>
-        <a class="travel-card" href="/place/?place=munnar">
-            <img src="/assets/media/munnar/munnar.jpg" alt="Munnar" />
-            <h3>Munnar</h3>
-            <p>Rolling hills, misty mornings, and the scent of tea </p>
-        </a>
-        <a class="travel-card" href="/place/?place=panjim">
-          <img src="/assets/media/panjim/panjim.jpg" alt="Panjim" />
-          <h3>Panjim</h3>
-          <p>Where colonial charm meets riverside serenity </p>
-      </a>
-        <!-- Add more cards -->
-      </section>
-    
-      <footer>
-        <p>© 2025 SangyOnTheGo • All rights reserved</p>
-      </footer>
-      <script src="/assets/js/main.js"></script>
-    </body>
-    </html>
+
+    <!-- ===============================
+         HEADER
+    ================================ -->
+
+    <div id="site-header"></div>
+
+
+    <!-- ===============================
+         PAGE HERO
+    ================================ -->
+
+    <section class="page-hero">
+
+        <div class="page-hero-content">
+
+            <p class="eyebrow">
+                EXPLORE WITH ME
+            </p>
+
+            <h1>
+                Travels
+            </h1>
+
+            <p>
+                Places I've wandered, flavours I've discovered,
+                and little moments worth remembering.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ===============================
+         DESTINATIONS
+    ================================ -->
+
+    <main class="travels-page">
+
+        <section class="travels-intro">
+
+            <p class="section-eyebrow">
+                DESTINATIONS
+            </p>
+
+            <h2>
+                A few places I've loved
+            </h2>
+
+            <p>
+                From misty hill stations and coastal towns to
+                buzzing cities and unforgettable food stops,
+                here's a collection of places that have made
+                their way into my travel stories.
+            </p>
+
+        </section>
+
+
+        <!-- ===============================
+             DESTINATION GRID
+        ================================ -->
+
+        <section class="travel-grid">
+
+
+            <!-- MUNNAR -->
+            <article class="travel-card">
+
+                <a href="../place/?place=munnar">
+
+                    <div class="travel-card-image">
+
+                        <img
+                            src="../assets/images/travels/munnar.jpg"
+                            alt="Munnar tea plantations"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                    <div class="travel-card-content">
+
+                        <p class="travel-card-location">
+                            Kerala, India
+                        </p>
+
+                        <h3>
+                            Munnar
+                        </h3>
+
+                        <p>
+                            Rolling hills, misty mornings,
+                            and the scent of tea.
+                        </p>
+
+                        <span class="travel-card-link">
+                            Explore →
+                        </span>
+
+                    </div>
+
+                </a>
+
+            </article>
+
+
+            <!-- COORG -->
+            <article class="travel-card">
+
+                <a href="../place/?place=coorg">
+
+                    <div class="travel-card-image">
+
+                        <img
+                            src="../assets/images/travels/coorg.jpg"
+                            alt="Coorg landscape"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                    <div class="travel-card-content">
+
+                        <p class="travel-card-location">
+                            Karnataka, India
+                        </p>
+
+                        <h3>
+                            Coorg
+                        </h3>
+
+                        <p>
+                            Misty mornings, coffee plantations,
+                            and endless greens.
+                        </p>
+
+                        <span class="travel-card-link">
+                            Explore →
+                        </span>
+
+                    </div>
+
+                </a>
+
+            </article>
+
+
+            <!-- KOCHI -->
+            <article class="travel-card">
+
+                <a href="../place/?place=kochi">
+
+                    <div class="travel-card-image">
+
+                        <img
+                            src="../assets/images/travels/kochi.jpg"
+                            alt="Fort Kochi"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                    <div class="travel-card-content">
+
+                        <p class="travel-card-location">
+                            Kerala, India
+                        </p>
+
+                        <h3>
+                            Kochi
+                        </h3>
+
+                        <p>
+                            Where the sea meets stories,
+                            and time slows down.
+                        </p>
+
+                        <span class="travel-card-link">
+                            Explore →
+                        </span>
+
+                    </div>
+
+                </a>
+
+            </article>
+
+
+            <!-- KOZHIKODE -->
+            <article class="travel-card">
+
+                <a href="../place/?place=kozhikode">
+
+                    <div class="travel-card-image">
+
+                        <img
+                            src="../assets/images/travels/kozhikode.jpg"
+                            alt="Kozhikode"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                    <div class="travel-card-content">
+
+                        <p class="travel-card-location">
+                            Kerala, India
+                        </p>
+
+                        <h3>
+                            Kozhikode
+                        </h3>
+
+                        <p>
+                            A city that serves soul
+                            in every bite.
+                        </p>
+
+                        <span class="travel-card-link">
+                            Explore →
+                        </span>
+
+                    </div>
+
+                </a>
+
+            </article>
+
+
+            <!-- MUMBAI -->
+            <article class="travel-card">
+
+                <a href="../place/?place=mumbai">
+
+                    <div class="travel-card-image">
+
+                        <img
+                            src="../assets/images/travels/mumbai.jpg"
+                            alt="South Mumbai"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                    <div class="travel-card-content">
+
+                        <p class="travel-card-location">
+                            Maharashtra, India
+                        </p>
+
+                        <h3>
+                            Mumbai
+                        </h3>
+
+                        <p>
+                            Where colonial charm meets
+                            coastal buzz.
+                        </p>
+
+                        <span class="travel-card-link">
+                            Explore →
+                        </span>
+
+                    </div>
+
+                </a>
+
+            </article>
+
+
+            <!-- DELHI -->
+            <article class="travel-card">
+
+                <a href="../place/?place=delhi">
+
+                    <div class="travel-card-image">
+
+                        <img
+                            src="../assets/images/travels/delhi.jpg"
+                            alt="Delhi"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                    <div class="travel-card-content">
+
+                        <p class="travel-card-location">
+                            Delhi, India
+                        </p>
+
+                        <h3>
+                            Delhi
+                        </h3>
+
+                        <p>
+                            A whirlwind of history,
+                            hustle, and heavenly food.
+                        </p>
+
+                        <span class="travel-card-link">
+                            Explore →
+                        </span>
+
+                    </div>
+
+                </a>
+
+            </article>
+
+
+            <!-- PANJIM -->
+            <article class="travel-card">
+
+                <a href="../place/?place=panjim">
+
+                    <div class="travel-card-image">
+
+                        <img
+                            src="../assets/images/travels/panjim.jpg"
+                            alt="Panjim Goa"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                    <div class="travel-card-content">
+
+                        <p class="travel-card-location">
+                            Goa, India
+                        </p>
+
+                        <h3>
+                            Panjim
+                        </h3>
+
+                        <p>
+                            Colonial charm by the river,
+                            wrapped in sunshine and colour.
+                        </p>
+
+                        <span class="travel-card-link">
+                            Explore →
+                        </span>
+
+                    </div>
+
+                </a>
+
+            </article>
+
+
+            <!-- BANGKOK -->
+            <article class="travel-card">
+
+                <a href="../place/?place=bangkok">
+
+                    <div class="travel-card-image">
+
+                        <img
+                            src="../assets/images/travels/bangkok.jpg"
+                            alt="Bangkok"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                    <div class="travel-card-content">
+
+                        <p class="travel-card-location">
+                            Thailand
+                        </p>
+
+                        <h3>
+                            Bangkok
+                        </h3>
+
+                        <p>
+                            Floating markets, golden temples,
+                            and vibrant nights.
+                        </p>
+
+                        <span class="travel-card-link">
+                            Explore →
+                        </span>
+
+                    </div>
+
+                </a>
+
+            </article>
+
+
+            <!-- PHUKET -->
+            <article class="travel-card">
+
+                <a href="../place/?place=phuket">
+
+                    <div class="travel-card-image">
+
+                        <img
+                            src="../assets/images/travels/phuket.jpg"
+                            alt="Phuket beach"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                    <div class="travel-card-content">
+
+                        <p class="travel-card-location">
+                            Thailand
+                        </p>
+
+                        <h3>
+                            Phuket
+                        </h3>
+
+                        <p>
+                            Island vibes, turquoise waves,
+                            and slow sunsets.
+                        </p>
+
+                        <span class="travel-card-link">
+                            Explore →
+                        </span>
+
+                    </div>
+
+                </a>
+
+            </article>
+
+
+        </section>
+
+    </main>
+
+
+    <!-- ===============================
+         FOOTER
+    ================================ -->
+
+    <footer class="site-footer">
+
+        <p>
+            © 2026 SangyOnTheGo. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- ===============================
+         JAVASCRIPT
+    ================================ -->
+
+    <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
